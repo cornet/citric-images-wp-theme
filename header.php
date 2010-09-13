@@ -67,14 +67,6 @@
 					primarymenu();
 			}?>
             <!-- END MAIN MENU -->
-			<!-- BEGIN TOP SEARCH -->
-			<div id="topSearch">
-				<form id="searchform" action="<?php bloginfo('url'); ?>/" method="get">
-					<input type="submit" value="" id="searchsubmit"/>
-					<input type="text" id="s" name="s" value="type your search" />
-				</form>
-			</div>
-			<!-- END TOP SEARCH -->
 			<!-- BEGIN TOP SOCIAL LINKS -->
 			<div id="topSocial">
 				<ul>

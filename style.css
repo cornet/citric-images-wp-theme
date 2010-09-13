@@ -83,9 +83,8 @@ body#home #mainWrapper {
 }
 
 #header {
-	height:190px;
+	height:75px;
 	position:relative;
-	background:url(images/bk_header.png) 0 0 no-repeat;
 }
 
 #content {
@@ -151,7 +150,7 @@ body#home #content, body#portfolio #content {
 /* -- logo --*/
 #logo {
 	position:absolute;
-	top:115px;
+	top:10px;
 	left:0;
 }
 
@@ -164,6 +163,7 @@ body#home #content, body#portfolio #content {
 	position:absolute;
 	left:-18px;
 	top:0;
+
 }
 
 #mainMenu ul li{
@@ -174,8 +174,8 @@ body#home #content, body#portfolio #content {
 	display:block;
 	height:49px;
 	color:#ccc;
-	padding:36px 18px 0;
-	font-size:17px;
+	padding:58px 18px 0;
+	font-size:15px;
 	background:url(images/bk_mainmenu.png) 0 -78px no-repeat;
 }
 
@@ -201,7 +201,7 @@ body#home #content, body#portfolio #content {
 #topSocial {
 	position:absolute;
 	right:0;
-	top:120px;
+	top:15px;
 }
 
 #topSocial ul li {
@@ -212,15 +212,12 @@ body#home #content, body#portfolio #content {
 
 #topSocial ul li a {
 	display:block;
-	height:47px;
-	width:47px;
-	background:url(images/bk_topsocial.png) 0 0 no-repeat;
+	height:32px;
+	width:32px;
 }
 
 #topSocial ul li a img {
 	border:none;
-	margin-top:9px;
-	margin-left:8px;
 }
 
 #topSocial ul li a:hover {
@@ -813,31 +810,6 @@ line-height:140%;
 
 }
 
-/* Top Search */
-
-#topSearch input[type="text"] {
-	-moz-border-radius:4px; 
-	-webkit-border-radius:4px;
-	width:100px;
-	background:url(images/bk_top_search.png) 0 0 repeat-x;
-	padding:9px 10px 10px;
-	border:1px solid #2E4849;
-	color:#A8A8A8;
-	font-style:italic;
-	margin-right:10px;
-	position:relative;
-}
-
-#topSearch input[type="submit"] {
-	position:absolute;
-	right:0;
-	z-index:100;
-	width:43px;
-	height:44px;
-	background:url(images/but_search.png) 0 0 no-repeat;
-	border:none;
-	cursor:pointer;
-}	
 
 /* COMMENTS F0RM */
 
