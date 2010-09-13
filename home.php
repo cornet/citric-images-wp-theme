@@ -11,7 +11,7 @@
 				</div>
 			<?php }?>
 		</div>
-	   <div style="width:960px; margin:0 auto; background:url(<?php bloginfo('template_directory'); ?>/images/bk_shadow_slider.png) 0 0 no-repeat; height:50px;"></div>
+	   <div style="width:864.px; margin:0 auto; background:url(<?php bloginfo('template_directory'); ?>/images/bk_shadow_slider.png) 0 0 no-repeat; height:50px;"></div>
 	   <!-- END SLIDER -->
 	   <!-- BEGIN BLURB -->
 	   <?php if(get_option('boldy_blurb_enable')=="yes" && get_option('boldy_blurb_text')!=""){ ?>
